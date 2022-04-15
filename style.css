@@ -1,0 +1,411 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* MARQUEE */
+
+.covid{
+    margin: 0%;
+    background-color: rgb(48, 43, 43);
+    height: 40px;
+    
+}
+.covid-para{
+    font-family: sans-serif;
+    padding-top: 10px;
+    color: white;
+    font-size: 17px;
+}
+.click-here{
+    color: #F08080 !important;
+}
+
+.click-here:active{
+    color:white !important ;
+}
+
+.click-here:hover{
+    color:white !important ;
+}
+/* LOGO AND NAVBAR */
+.logo{
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+}
+.logo-nav{
+    background-color:#F08080;
+    
+}
+.navbar{
+    border-top: 1px white solid;
+    border-left:  #F08080;
+    border-right:  #F08080;
+    border-bottom: 1px white solid;
+    border-style: dashed;
+    margin-top: 20px ;
+    padding-left: 100px;
+}
+.nav-menu{
+    line-height: 40px;
+    padding-top: 10px !important;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+}
+
+/* IMAGE */
+.Image{
+    background-image: url("icecream.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+    height: 800px;
+    
+}
+.slogan{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 100px;
+    color: white;
+    position: absolute;
+    top: 550px;
+    left: 180px;
+}
+span{
+    color: #F08080;
+}
+
+
+/* FLAVORS */
+.today-flvr-hd{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    /* text-decoration: underline; */
+    /* text-decoration-style: double; */
+    font-family: 'Syne Mono', monospace;
+    display: inline-block;
+}
+.flvr-icon{
+    width:60px;
+    height:60px;
+    display: inline-block;
+    border-radius: 50px;
+    margin-left: 30px;
+    position: relative;
+    top: 10px;
+}
+
+
+.flavors{
+    height: 2000px;
+    position: relative;
+    top: -35px; 
+   background-color: rgb(65, 57, 57);
+}
+
+.flvr-box{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(65, 57, 57);
+
+}
+.box1 , .box2{
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    border-bottom:   solid #000;
+
+}
+.box3 , .box4{
+    display: inline-block;
+}
+
+.box3{
+    position: relative;
+    top: -20px;
+    border-top:  solid rgb(228, 224, 217) 1px;
+}
+.box2{
+    left: -4px;
+    position: relative;
+    top: -18px;
+    border-left:   solid rgb(238, 223, 195) 1px;
+
+}
+.box4{
+    border-top:  solid rgb(238, 223, 195) 1px;
+    border-left:   solid rgb(238, 223, 195) 1px;
+    position: relative;
+    top: -38px;
+    left: -4px;
+}
+.boxes{
+    width: 810px;
+    margin-left: 280px;
+}
+
+.flvr-img{
+    border-radius: 120px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.flvr-hd{
+    text-align: center;
+    color: white;
+}
+.flvr-para{
+    text-align: center;
+    color: white;
+}
+.line{
+    color: wheat;
+opacity: 0.1;
+margin-bottom: 20px;
+height: 2px;
+}
+
+/* ALL FLVR BOX */
+.all-flvr{
+    /* background-color: rgb(48, 43, 43); */
+    margin-top: 30px;
+    border-color: white;
+    border-style: dashed;
+    border-width: 1px;
+    width: 900px;
+    height: 300px;
+}
+.all-flvr-icon{
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+}
+.all-flvr-para{
+    font-family: arial;
+    font-style: italic;
+    color: white;
+    text-decoration: none;
+}
+.all-flvr-hd{
+    color: #F08080;
+    font-family: 'Redressed', cursive;
+    font-size: 30px;
+}
+.all-flvr-btn{
+    height: 50px;
+    width: 150px;
+    background-color: #F08080;
+    font-family: 'Pangolin', cursive;
+    font-size: 20px;
+    border-radius: 25px;
+    font-weight: bolder;
+    color: white;
+}
+.all-flvr-btn:hover{
+    opacity: 0.7;
+}
+.all-flvr-btn:focus{
+outline: none;
+}
+
+
+/* INFO BOXES */
+
+.info-boxes{
+    height: 300px;
+    margin-top: 70px;
+    background-color: #F08080;
+}
+.info-box-1{
+    margin-top: 20px;
+    display: inline-block;
+    width: 300px;
+    /* border: white 1px solid; */
+}
+.cupcake-icon{
+    position: relative;
+    top: 20px;
+    height: 120px;
+    width: 120px;
+}
+.all-icons-hd{
+    color: white;
+    font-family: 'Satisfy', cursive;
+    font-size: 35px;
+}
+
+.info-box-2{
+    display: inline-block;
+    /* border: white 1px solid; */
+    width: 300px;
+}
+.all-icons-para{
+    color: white;
+}
+
+
+.info-box-3{
+    position: relative;
+    top: 15px;
+    display: inline-block;
+    /* border: white 1px solid; */
+    width: 300px;
+}
+.online-order{
+    height: 70px;
+    width: 70px;
+}
+
+
+.info-box-4{
+    margin-left: 20px;
+    display: inline-block;
+position: relative;
+top: 15px;
+    /* border: white 1px solid; */
+    width: 300px;
+}
+.story{
+    height: 60px;
+    width: 60px;
+}
+
+/* FOOTER */
+
+.footer{
+    /* margin-top: 50px; */
+    background-color:rgb(94, 88, 88);
+    height: 500px;
+}
+.footer-div{
+    display: inline-block;
+    border: 1px solid;
+}
+.email-hd{
+    color: white;
+    font-family: 'Cardo', serif;
+    font-size: 25px;
+}
+label{
+    color: white;
+}
+.email-inp{
+    border-radius: 5px;
+    height: 30px;
+    width: 180px;
+}
+.code-inp{
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 34px;
+    height: 30px;
+    width: 180px;
+}
+.sub-btn{
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    /* margin-left: 70px; */
+    border-radius: 20px;
+    background-color: #F08080;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Cursive';
+}
+.email-code{
+    border:none;
+    /* margin-top: 40px; */
+    margin-left: 50px;
+    position: relative;
+    top: -110px;
+}
+
+
+
+.my-account{
+    position: relative;
+    top: -110px;
+    border: none;
+    margin-top: 0px;
+    margin-left: 100px;
+}
+.acc{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 5px;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.acc-hd{
+    color: white;
+    font-family: 'Cardo', serif;
+    font-size: 25px;
+}
+
+
+
+.customer-hd{
+    color: white;
+    font-family: 'Cardo', serif;
+    font-size: 25px;
+}
+.customer{
+        border: none;
+        margin-top: 90px;
+        margin-left: 100px;
+    
+}
+
+
+
+.icons{
+    position: relative;
+    /* top: -100px; */
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+}
+.contact-icons{
+    position: relative;
+    top: -195px;
+    border: none;
+    margin-left: 100px;
+}
+.contact-hd{
+    color: white;
+    font-family: 'Cardo', serif;
+    font-size: 25px;
+}
+
+
+div.twelve{
+    background-color: #d37272;
+padding:15px ;
+margin: 0px;
+}
+p.copy{
+    color: white;
+    font-family: open sans;
+    font-size: 11px;
+    margin: 0px;
+    padding-left: 100px;
+
+}
+img.pageup{
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    top: 500px;
+    bottom: 0px;
+    left: 1250px;
+    z-index: 99999;
+    opacity: 0.4;
+    
+}
+.pageup:hover{
+    opacity: 1;
+}
